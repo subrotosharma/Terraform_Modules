@@ -11,8 +11,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "sais3bucket236"
-    key    = "production-modules.tfstate"
+    bucket = "jenkinscicd1992"
+    key    = "production-subroto.tfstate"
     region = "us-east-1"
   }
 }
