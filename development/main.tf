@@ -12,7 +12,7 @@ terraform {
   }
   backend "s3" {
     bucket = "jenkinscicd1992"
-    key    = "dev-modules.tfstate"
+    key    = "dev-subroto.tfstate"
     region = "us-east-1"
   }
 }
